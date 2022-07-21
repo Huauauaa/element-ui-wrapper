@@ -1,6 +1,7 @@
 module.exports = {
   root: true,
   env: {
+    amd: true,
     node: true,
   },
   extends: ["plugin:vue/essential", "eslint:recommended", "@vue/prettier"],
